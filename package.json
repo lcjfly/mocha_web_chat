@@ -1,0 +1,10 @@
+{
+	"name": "mocha_web_chat",
+	"version": "0.0.1",
+	"description": "mocha web chat application",
+
+	"dependencies": {
+		"socket.io": "~0.9.6",
+		"mime": "~1.2.7"
+	}
+}

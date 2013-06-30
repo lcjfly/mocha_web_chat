@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<title>Mocha Web Chat</title>
+	<link rel="stylesheet" href="/stylesheet/reset.css">
+	<link rel="stylesheet" href="/stylesheet/r_grid_12.css">
+	<link rel="stylesheet" href="/stylesheet/style.css">
+</head>
+<body>
+	<div id="content">
+
+		<div class="row">
+			<div id="room"></div>
+		</div>
+
+		<div class="row">
+			<div id="messages" class="col-10"></div>
+			<div id="room-list" class="col-2"></div>
+		</div>
+
+		<div class="row">
+			<form action="" id="send-form">
+			<input type="text" id="send-message">
+			<input type="submit" id="send-button" value="Send">
+
+			<div id="help">
+				Chat commands:
+				<ul>
+					<li>Change nickname: <code>/nick [username]</code></li>
+					<li>Join/create room: <code>join/create [room name]</code></li>
+				</ul>
+			</div>
+		</form>
+		</div>
+		
+	</div>
+
+	<script src="/javascript/jquery.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/javascript/chat.js"></script>
+	<script src="/javascript/chat_ui.js"></script>
+</body>
+</html>
