@@ -10,9 +10,9 @@ Sometimes i use this in poor network environment.
 
 ===============
 ### what does it do?
-It just a chat web app including:
-1. change nick name
-2. create or join room
+1. chat with others in browser
+2. change nick name
+3. create or join room
 
 
 ===============
